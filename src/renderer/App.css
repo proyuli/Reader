@@ -46,6 +46,7 @@ a {
   text-decoration: none;
   height: fit-content;
   width: fit-content;
+  width: -moz-fit-content;
   margin: 10px;
 }
 

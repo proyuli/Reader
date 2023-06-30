@@ -15,6 +15,7 @@ import log from 'electron-log';
 import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
 
+/* electron-updater 自动更新 */
 class AppUpdater {
   constructor() {
     log.transports.file.level = 'info';
